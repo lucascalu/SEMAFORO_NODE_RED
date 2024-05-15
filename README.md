@@ -33,6 +33,8 @@ Abra o arduíno IDE e instala a biblioteca firmata conforme exemplo e depois car
 <pre>
   Clique na caixa inject e poderá visualizar seu projeto pelo link :
 </pre>
+<img src="03.PNG">
+ 
 <pre>
   localhost:1880/ui
 </pre>
@@ -41,6 +43,5 @@ Abra o arduíno IDE e instala a biblioteca firmata conforme exemplo e depois car
 Segue diagrama eletrônico 
 </pre>
 
-<img src="03.PNG">
- 
+
 
