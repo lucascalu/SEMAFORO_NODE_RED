@@ -1,0 +1,296 @@
+[
+    {
+        "id": "88a030c075b7f1bd",
+        "type": "tab",
+        "label": "Fluxo 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "927a5c2a3f5fb516",
+        "type": "arduino out",
+        "z": "88a030c075b7f1bd",
+        "name": "",
+        "pin": "13",
+        "state": "OUTPUT",
+        "arduino": "6a7da91bf81a4334",
+        "x": 680,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "47379b3742c8dd35",
+        "type": "arduino out",
+        "z": "88a030c075b7f1bd",
+        "name": "",
+        "pin": "12",
+        "state": "OUTPUT",
+        "arduino": "6a7da91bf81a4334",
+        "x": 840,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "82d6619eff5fed72",
+        "type": "arduino out",
+        "z": "88a030c075b7f1bd",
+        "name": "",
+        "pin": "11",
+        "state": "OUTPUT",
+        "arduino": "6a7da91bf81a4334",
+        "x": 1050,
+        "y": 560,
+        "wires": []
+    },
+    {
+        "id": "109aac3144b564c9",
+        "type": "trigger",
+        "z": "88a030c075b7f1bd",
+        "name": "",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "5",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "1",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 580,
+        "y": 660,
+        "wires": [
+            [
+                "927a5c2a3f5fb516",
+                "96d82e15634d6444",
+                "acb1631f6c7baa3e"
+            ]
+        ]
+    },
+    {
+        "id": "96d82e15634d6444",
+        "type": "trigger",
+        "z": "88a030c075b7f1bd",
+        "name": "",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "5",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "1",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 740,
+        "y": 660,
+        "wires": [
+            [
+                "47379b3742c8dd35",
+                "b6e3ba5456fe177a",
+                "2ae9dfdad3493492"
+            ]
+        ]
+    },
+    {
+        "id": "b6e3ba5456fe177a",
+        "type": "trigger",
+        "z": "88a030c075b7f1bd",
+        "name": "",
+        "op1": "1",
+        "op2": "0",
+        "op1type": "str",
+        "op2type": "str",
+        "duration": "5",
+        "extend": false,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "1",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 920,
+        "y": 660,
+        "wires": [
+            [
+                "82d6619eff5fed72",
+                "109aac3144b564c9",
+                "93e9c5a0841bf5a5"
+            ]
+        ]
+    },
+    {
+        "id": "380b028b3ad651b8",
+        "type": "inject",
+        "z": "88a030c075b7f1bd",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "0",
+        "payloadType": "num",
+        "x": 250,
+        "y": 460,
+        "wires": [
+            [
+                "8023870f60e38ea4",
+                "ed909dea8ffceee7",
+                "ca74738c1d0b7bdd",
+                "109aac3144b564c9"
+            ]
+        ]
+    },
+    {
+        "id": "8023870f60e38ea4",
+        "type": "arduino out",
+        "z": "88a030c075b7f1bd",
+        "name": "",
+        "pin": "13",
+        "state": "OUTPUT",
+        "arduino": "6a7da91bf81a4334",
+        "x": 400,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "ed909dea8ffceee7",
+        "type": "arduino out",
+        "z": "88a030c075b7f1bd",
+        "name": "",
+        "pin": "12",
+        "state": "OUTPUT",
+        "arduino": "6a7da91bf81a4334",
+        "x": 600,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "ca74738c1d0b7bdd",
+        "type": "arduino out",
+        "z": "88a030c075b7f1bd",
+        "name": "",
+        "pin": "11",
+        "state": "OUTPUT",
+        "arduino": "6a7da91bf81a4334",
+        "x": 790,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "acb1631f6c7baa3e",
+        "type": "ui_gauge",
+        "z": "88a030c075b7f1bd",
+        "name": "",
+        "group": "064a77c322a84d3f",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "VERMELHO",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1",
+        "colors": [
+            "#b30000",
+            "#e60000",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 970,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "2ae9dfdad3493492",
+        "type": "ui_gauge",
+        "z": "88a030c075b7f1bd",
+        "name": "",
+        "group": "064a77c322a84d3f",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "VERDE",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1",
+        "colors": [
+            "#00b500",
+            "#00b550",
+            "#00b538"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 1140,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "93e9c5a0841bf5a5",
+        "type": "ui_gauge",
+        "z": "88a030c075b7f1bd",
+        "name": "",
+        "group": "064a77c322a84d3f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "AMARELO",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "1",
+        "colors": [
+            "#e9e10c",
+            "#e2e600",
+            "#c8cb3a"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 1330,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "6a7da91bf81a4334",
+        "type": "arduino-board",
+        "device": "COM30"
+    },
+    {
+        "id": "064a77c322a84d3f",
+        "type": "ui_group",
+        "name": "ACIONAMENTO",
+        "tab": "07e71ff037377889",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "07e71ff037377889",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
