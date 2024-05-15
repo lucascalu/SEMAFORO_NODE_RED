@@ -1,5 +1,11 @@
 # SEMÁFORO NODE RED
 
+<pre>
+Abra o arduíno IDE e instala a biblioteca firmata conforme exemplo e depois carregue o código standard firmata
+  
+</pre>
+
+<img src="04.PNG">
 <PRE>
   Inicie o node-red via terminal
 </PRE>
