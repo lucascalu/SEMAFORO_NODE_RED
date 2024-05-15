@@ -5,7 +5,7 @@ Abra o arduíno IDE e instala a biblioteca firmata conforme exemplo e depois car
   
 </pre>
 
-<img src="04.PNG">
+<img src="04.png">
 <PRE>
   Inicie o node-red via terminal
 </PRE>
