@@ -42,6 +42,6 @@ Abra o arduíno IDE e instala a biblioteca firmata conforme exemplo e depois car
 <pre>
 Segue diagrama eletrônico 
 </pre>
-
+<img src="05.PNG">
 
 
