@@ -32,7 +32,7 @@ Abra o arduíno IDE e instala a biblioteca firmata conforme exemplo e depois car
 
 <pre>
 <IMPORTE O ARQUIVO "semaforo1.json" presente no github
-<img src="01.PNG">  
+<img src="01.png">  
 </pre>
 
 
