@@ -21,8 +21,20 @@ Abra o arduíno IDE e instala a biblioteca firmata conforme exemplo e depois car
   localhost:1880
 </pre>
 
+<pre>
+  INSTALE OS NÓS DO TIPO TEMPLATE E FIRMATA
+</pre>
+
+<pre>
+
+<img src="10.PNG">  
+</pre>
+
+<pre>
 <IMPORTE O ARQUIVO "semaforo1.json" presente no github
-<img src="01.PNG">
+<img src="01.PNG">  
+</pre>
+
 
 <br>
 <pre>
