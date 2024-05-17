@@ -27,7 +27,7 @@ Abra o arduíno IDE e instala a biblioteca firmata conforme exemplo e depois car
 
 <pre>
 
-<img src="10.PNG">  
+<img src="10.png">  
 </pre>
 
 <pre>
